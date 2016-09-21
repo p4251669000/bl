@@ -1,4 +1,4 @@
-﻿/*********************************************************************************** 
+﻿ /*********************************************************************************** 
 *        Cteate by :   xierui
 *        Date      :   2016/9/20 11:12:37 
 *        Desc      :   实现数据仓库接口
@@ -90,7 +90,7 @@ namespace XR.BL.Data
         /// 插入实体集合
         /// </summary>
         /// <param name="entities">实体集合</param>
-        public virtual void Insert(IEnumerable<T> entities)
+        public virtual void Insert(IEnumerable<T> entities) 
         {
             try
             {
